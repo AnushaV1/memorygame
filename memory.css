@@ -2,15 +2,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+  
 }
 div#game_container {
     background-color: cornsilk;
     border: #999 1px solid;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    padding: 24px;
-    height: 80%;
-    width: 65%;
+    padding: 35px;
+    height: 480px;
+    width: 480px;
     margin: 20px auto;
 }
     .tile {
@@ -45,5 +45,5 @@ font-size: 100px;
 color:#DC143C; 
 margin: 200px auto;
 text-align: center;
-font-weight: 700
+font-weight: 700;
 }
